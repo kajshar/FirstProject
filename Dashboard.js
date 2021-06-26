@@ -38,7 +38,7 @@ require([
     });
 
 //List of table IDs to add icon
-    var tableIDs = ["sample", "sample1", "sample2", "sample3","samplen" "sample19"];
+    var tableIDs = ["sample", "sample1", "sample2", "sample3","sample4","sample5, "sample19"];
     for (i = 0; i < tableIDs.length; i++) {
         //var sh = mvc.Components.get("sample");
         var sh = mvc.Components.get(tableIDs[i]);
